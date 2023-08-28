@@ -1,0 +1,83 @@
+body {
+    margin:1px 1px 0 1px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
+    background-color: rgba(245, 222, 179, 0.568);
+
+}
+
+h1 {
+    color: red;
+    text-align: center;
+}
+
+article {
+    text-align: center;
+    
+}
+
+.imagem {
+    width: 300px;
+    height: 250px;
+    border-radius: 10%;
+    border: 1px solid red;
+    
+}
+
+.imagem:hover {
+    transform: scale(1.1); /*zoom na foto ao passar o mouse*/
+    filter: grayscale(100%); /*foto ficar preto e branco ao passar o mouse*/
+
+     
+}
+
+
+.imagem2 {
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    border: 1px solid red;
+}
+
+.fonte {
+    font-size: .7rem;
+    margin-top: 0;
+    
+
+}
+
+p {
+    margin: 25px;
+    
+}
+
+.ref {
+    background-color: wheat;
+    padding-bottom: 1rem;
+}
+ 
+a {
+    margin-left: 2rem;
+    text-decoration: none;
+
+    
+}
+
+
+.rodapé {
+    font-size: .7rem;
+    text-align: center;
+    background-color: #ccc;
+    margin-top: 0;
+    margin-bottom: 0;
+
+
+}
+
+@media screen and (max-width: 800px) {
+    .imagem:hover {
+        transform: none; 
+        filter: none; /*foto ficar preto e branco ao passar o mouse*/
+    
+         
+    }
+}
