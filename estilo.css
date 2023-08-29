@@ -20,6 +20,7 @@ article {
     height: 250px;
     border-radius: 10%;
     border: 1px solid red;
+    margin-top: 2rem;
     
 }
 
@@ -36,11 +37,14 @@ article {
     height: 300px;
     border-radius: 5px;
     border: 1px solid red;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
 }
 
 .fonte {
     font-size: .7rem;
     margin-top: 0;
+    text-align: center;
     
 
 }
@@ -53,22 +57,27 @@ p {
 .ref {
     background-color: wheat;
     padding-bottom: 1rem;
+    
 }
  
 a {
     margin-left: 2rem;
     text-decoration: none;
-
+    line-height: 25px;
     
 }
 
 
 footer {
-    font-size: .7rem;
     text-align: center;
     background-color: #ccc;
     margin-top: 0;
     margin-bottom: 0;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 10px;
+    letter-spacing: 2px;
+
 
    
 }
