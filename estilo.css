@@ -63,14 +63,14 @@ a {
 }
 
 
-.rodapé {
+footer {
     font-size: .7rem;
     text-align: center;
     background-color: #ccc;
     margin-top: 0;
     margin-bottom: 0;
 
-
+   
 }
 
 @media screen and (max-width: 800px) {
@@ -80,4 +80,5 @@ a {
     
          
     }
+   
 }
